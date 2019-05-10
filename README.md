@@ -9,6 +9,7 @@ libraries used
 -datetime
 -threading
 -random 
+-time
 -threading
 -random
 -markovify
@@ -18,7 +19,13 @@ all of these should be able to be installed easily by typing "pip install (myLib
 
 File breakdown
 capLibrary.txt
-	this file is used to generate captions off of for posting 
+	this file is used to generate captions off of for posting. it contains the html from a specific tag page
+moreTags.java
+	this is used to properly format tags for posts
+cleanCaption.txt
+	this is the isolated captions that were sifted through by formatter.java
+cleanPostTags
+	these are the properly formatted tags for the post captions
 follow.py
 	this is the python file that manages following. If you only want to follow and not perform the other actions that are performed in quickstart.py then just write "python follow.py" in terminal
 formatter.java
@@ -33,3 +40,9 @@ quickstart.py
 	this file runs like.py,follow.py, and unfollow.py at the same time.
 unfollow.py
 	this file unfollows the users that are not following you back. If you only want to unfollow and not perform the other actions that are performed in quickstart.py then just write "python unfollow.py" in terminal
+myPost.py
+	this generates a random caption off of the tags in tags.txt and picks a random photos from the posts folder
+tags.txt
+	this is a list of tags that the bot will use for posts as well as liking 
+
+
