@@ -1,6 +1,10 @@
 How to run:
-1) in terminal navigate to the InstaBot file
+1) in terminal navigate to the InstaBot file followed by the instapy-quickstart-master file
 2) type python quickstart.py
+How to post:
+1) in terminal navigate to the InstaBot file followed by the instapy-quickstart-master file
+2) type python myPost.py
+NOTE: if you want to change the images the bot choses from for posting you can access those in the post file
 
 libraries used
 -instapy
